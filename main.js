@@ -15,4 +15,7 @@ $(document).ready(function(){
     $(".toggler-btn").click(function(){
         $(".menu").toggleClass("active");
     })
+    $(".more-btn").click(function(){
+        $(this).toggleClass("active")
+    })
 })
